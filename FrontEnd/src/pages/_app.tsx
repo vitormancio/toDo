@@ -1,7 +1,7 @@
-import { cyanDark, NextUIProvider } from '@nextui-org/react'
 import { AppProps } from 'next/app'
 import { Header } from '../../components/Header'
-
+// Css imports 
+import { NextUIProvider } from '@nextui-org/react'
 import { createTheme } from "@nextui-org/react"
 
 const darkTheme = createTheme({

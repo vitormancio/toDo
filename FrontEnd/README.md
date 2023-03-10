@@ -1,1 +1,0 @@
-This project using pnpm package manager 😊

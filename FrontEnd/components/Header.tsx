@@ -1,6 +1,7 @@
 import { Navbar, Text, Button } from "@nextui-org/react";
 import { BrandLogo } from "./BrandLogo";
 import { CiSettings } from "react-icons/ci";
+import { LoginButton } from "./Buttons/Login";
 
 export const Header = () => {
     return (
@@ -10,9 +11,7 @@ export const Header = () => {
             </Navbar.Brand>
             <Navbar.Content>
                 <Navbar.Item>
-                    <Button color={'success'} bordered >
-                        <Text weight={'extrabold'}>Login</Text>
-                    </Button>
+                    <LoginButton text={'Login'}/>
                 </Navbar.Item>
             </Navbar.Content>
             <Navbar.Content>
